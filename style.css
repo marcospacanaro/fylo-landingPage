@@ -1,0 +1,51 @@
+body {
+    background-color: #1C2230;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+
+#img-navbar {
+    display: flex;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+}
+
+#list-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0 2rem 0 0;
+    color: white;
+    font-family: Roboto, "Helvetica Neue";
+    font-weight: bold;
+}
+
+li {
+    margin: 0 2rem 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
