@@ -49,3 +49,9 @@ a:hover {
     align-items: center;
     flex-direction: column;
 }
+
+h1, p {
+    color: white;
+    font-family: Roboto, "Helvetica Neue";
+    text-align: center;
+}
