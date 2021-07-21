@@ -50,8 +50,36 @@ a:hover {
     flex-direction: column;
 }
 
+#main > h1, p {
+    font-size: 1.2rem;
+}
+
 h1, p {
     color: white;
     font-family: Roboto, "Helvetica Neue";
     text-align: center;
+}
+
+.text-main {
+    margin: 0 0 2rem 0;
+}
+
+#start-button {
+    margin: 1rem 0 0 0;
+    padding: 1rem 5rem 1rem 5rem;
+
+    border: none;
+    border-radius: 2rem;
+
+    color: white;
+    background-color: cyan;
+    font-family: roboto, "Helvetica Neue";
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#start-button:hover {
+    cursor: pointer;
+    background-color:rgb(1, 155, 155);
+    transition: 0.6s;
 }
