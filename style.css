@@ -50,14 +50,18 @@ a:hover {
     flex-direction: column;
 }
 
-#main > h1, p {
-    font-size: 1.2rem;
-}
-
-h1, p {
-    color: white;
+#main h1 {
+    font-size: 35px;
     font-family: Roboto, "Helvetica Neue";
     text-align: center;
+    color: white;
+}
+
+#main p {
+    font-size: 1.2rem;
+    font-family: Roboto, "Helvetica Neue";
+    text-align: center;
+    color: white;
 }
 
 .text-main {
@@ -83,3 +87,38 @@ h1, p {
     background-color:rgb(1, 155, 155);
     transition: 0.6s;
 }
+
+#main-two {
+    color: white;
+    font-family: Roboto, "Helvetica Neue";
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    margin: 10rem 10rem 5rem 10rem;
+}
+
+#main-two p {
+    font-size: 20px;
+}
+
+#main-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-family: Roboto, "Helvetica Neue";
+    font-size: 20px;
+}
+
+#main-three h2 {
+    font-size: 30px;
+}
+
+#main-three a{
+    color: cyan;
+    text-decoration: underline;
+}
+
